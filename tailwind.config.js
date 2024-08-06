@@ -2,10 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      "2sm": { max: "500px" },
-    },
     extend: {
+      screens: {
+        "sm-1": { max: "639px" },
+        "Lg-1": { min: "1024px", max: "1251px" },
+        "Lg-2": "1251px",
+      },
+
       keyframes: {
         fadeInOut: {
           "0%, 100%": { opacity: 0 },
