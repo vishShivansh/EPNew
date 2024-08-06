@@ -1,0 +1,7 @@
+<!ELEMENT svg (path)>
+<!ATTLIST svg height NMTOKEN #REQUIRED>
+<!ATTLIST svg width NMTOKEN #REQUIRED>
+<!ATTLIST svg viewBox CDATA #REQUIRED>
+<!ELEMENT path EMPTY>
+<!ATTLIST path fill CDATA #REQUIRED>
+<!ATTLIST path d CDATA #REQUIRED>
