@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-float {
+  animation: float 20s linear infinite;
+}
+
+.animate-stop {
+  animation: none;
+}
+
+.header_DropdownItem {
+  display: block;
+  padding: 8px 16px;
+  color: rgba(55, 65, 81, 1);
+  border-bottom: 1px solid rgb(209, 213, 219);
+}
+
+.header_DropdownItem:hover {
+  color: rgba(147, 197, 253, 1);
+}
