@@ -7,11 +7,11 @@ const GetInTouch = () => {
   const { name, number, email, message } = formData;
 
   return (
-    <section className="py-12 bg-gray-100">
-      <div className="container mx-auto">
-        <div className="flex flex-row items-center justify-center bg-white p-8 shadow-md gap-10 2sm:flex-col">
+    <section className="w-full">
+      <div className="mx-auto">
+        <div className="flex flex-row sm-1:flex-col items-center justify-center bg-white p-8 shadow-md gap-10">
           {/* Form Section */}
-          <div className="w-1/3 2sm:w-full">
+          <div className="lg:w-1/3 sm:w-1/2 sm-1:w-full sm-1:flex sm-1:flex-col sm-1:items-center">
             <div className="text-center mb-8">
               <span className="text-lg">Send a Message</span>
               <h2 className="text-3xl font-bold">Get in Touch</h2>
@@ -20,6 +20,7 @@ const GetInTouch = () => {
               onSubmit={(event) =>
                 handleSubmit(event, "Yash Gupta", "yash@equiltax.com")
               }
+              className="sm-1:w-[80%]"
             >
               <div className="mb-4">
                 <input
@@ -87,7 +88,7 @@ const GetInTouch = () => {
             </form>
           </div>
           {/* Image Section */}
-          <div className="w-1/2 mb-8 2sm:w-full">
+          <div className="sm:w-1/2 mb-8">
             <img
               src={EnquiryImage}
               alt="EnquiryImage"

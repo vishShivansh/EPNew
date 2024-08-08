@@ -7,6 +7,7 @@ export default {
         "sm-1": { max: "639px" },
         "Lg-1": { min: "1024px", max: "1251px" },
         "Lg-2": "1251px",
+        "Lg-3": "1382px",
       },
 
       keyframes: {

@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-4 2sm:grid-cols-1 gap-4">
+      <div className="mx-auto px-4">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-4 md:gap-10 md:px-0 sm:px-12 sm:py-4 md:py-0 lg:gap-0 lg:px-10">
           {/* Useful Links */}
-          <div className="footer-column">
-            <h4 className="text-lg font-bold mb-4">Useful Links</h4>
-            <ul className="space-y-2">
+          <div className="">
+            <h4 className="text-lg sm-1:text-base font-bold mb-4 sm-1:mb-2">
+              Useful Links
+            </h4>
+            <ul className="space-y-2 sm-1:text-sm">
               <li>
                 <Link to={"/"} className="hover:text-gray-300">
                   Home
@@ -34,9 +36,11 @@ export const Footer = () => {
           </div>
 
           {/* Our Services */}
-          <div className="footer-column">
-            <h4 className="text-lg font-bold mb-4">Our Services</h4>
-            <ul className="space-y-2">
+          <div className="">
+            <h4 className="text-lg font-bold mb-4 sm-1:mb-2 sm-1:text-base">
+              Our Services
+            </h4>
+            <ul className="space-y-2 sm-1:text-sm">
               <li>
                 <Link to={"#"} className="hover:text-gray-300">
                   Audit and Assurance
@@ -61,9 +65,11 @@ export const Footer = () => {
           </div>
 
           {/* Important Links */}
-          <div className="footer-column">
-            <h4 className="text-lg font-bold mb-4">Important Links</h4>
-            <ul className="space-y-2">
+          <div className="">
+            <h4 className="text-lg font-bold mb-4 sm-1:mb-2 sm-1:text-base">
+              Important Links
+            </h4>
+            <ul className="space-y-2 sm-1:text-sm">
               <li>
                 <a
                   href={"http://incometaxindia.gov.in/Pages/default.aspx"}
@@ -108,11 +114,13 @@ export const Footer = () => {
           </div>
 
           {/* Contact Us */}
-          <div className="footer-column">
-            <h4 className="text-lg font-bold mb-4">Contact Us</h4>
-            <ul className="space-y-2">
-              <li className="flex items-center space-x-2">
-                <MapPinIcon className="h-5 w-5 text-gray-400" />
+          <div className="">
+            <h4 className="text-lg font-bold mb-4 sm-1:mb-2 sm-1:text-base">
+              Contact Us
+            </h4>
+            <ul className="space-y-2 sm-1:text-sm">
+              <li className="flex items-center space-x-2 ">
+                <MapPinIcon className="h-10 w-10 text-gray-400" />
                 <span>
                   111/2, Thapar Nagar, Meerut, Uttar Pradesh, 250001 India
                 </span>

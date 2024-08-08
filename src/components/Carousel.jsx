@@ -7,14 +7,14 @@ const Carousel = () => {
 
   return (
     <section
-      className="flex flex-col bg-cover bg-gray-900 text-white py-24 px-6 h-[650px]"
+      className="bg-center bg-no-repeat bg-cover bg-rose-200 object-fill py-24 px-6 sm-1:pr-20 max-h-screen lg:h-screen "
       style={{ backgroundImage: `url(${office})` }}
     >
-      <div className="flex flex-col justify-center mb-8">
-        <h1 className="text-3xl font-bold mb-2 text-violet-800">
+      <div className="flex flex-col justify-center sm-1:w-[230px]">
+        <h1 className="text-3xl sm-1:text-sm font-bold mb-2 text-violet-800 w-fit">
           Welcome to EquilTax.com
         </h1>
-        <p className="text-lg mb-2 line-clamp-3 max-w-lg text-green-700 font-medium">
+        <p className="text-lg sm-1:text-xs mb-2 line-clamp-3 sm-1:line-clamp-6 max-w-lg text-green-700 font-medium w-fit">
           At EquilTax Professionals, we are dedicated to providing comprehensive
           financial and accounting services tailored to meet the unique needs of
           each of our clients.
@@ -26,7 +26,7 @@ const Carousel = () => {
           className="max-w-lg bg-white p-6 rounded-lg shadow-lg"
         >
           <div className="flex flex-wrap -mx-2 mb-4">
-            <div className="flex w-full">
+            <div className="sm:flex w-full">
               <div className="w-full px-2 mb-4">
                 <label className="block text-md font-bold mb-1 text-black">
                   Name
@@ -56,7 +56,7 @@ const Carousel = () => {
                 />
               </div>
             </div>
-            <div className="flex w-full">
+            <div className="sm:flex w-full">
               <div className="w-full px-2 mb-1">
                 <label className="block text-md font-bold mb-1 text-black">
                   Email

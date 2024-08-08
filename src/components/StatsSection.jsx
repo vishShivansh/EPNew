@@ -2,7 +2,7 @@ import Counter from "./Counter";
 
 const StatsSection = () => {
   return (
-    <section className="flex items-center p-24 bg-black justify-evenly">
+    <section className="flex sm-1:flex-col sm-1:py-10 sm-1:space-y-8 items-center lg:p-24 md:px-0 sm:py-20 sm:px-2 bg-black justify-evenly sm:space-x-10">
       {/* Years in Business */}
       <div className="mb-4 text-center text-white">
         <div>

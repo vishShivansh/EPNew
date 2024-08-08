@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useEffect, useRef, useState } from "react";
 
@@ -54,7 +55,7 @@ const Counter = ({ start, end, duration, suffix }) => {
   };
 
   return (
-    <div ref={ref} className="text-6xl font-bold">
+    <div ref={ref} className="text-6xl font-bold mb-2">
       <span>{formatNumber(count)}</span>
       <span className="text-white">{suffix}</span>
     </div>

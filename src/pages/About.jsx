@@ -1,17 +1,17 @@
 const About = () => {
   return (
     <>
-      <div className="bg-[#fbf9eb] py-4 mx-auto mt-[102px]">
+      <div className="bg-[#fbf9eb] py-4 mx-auto">
         <div className="mx-auto">
           <div className="flex w-full">
-            <h2 className="text-3xl font-bold text-[#30a099] pl-20">
+            <h2 className="text-3xl font-bold text-[#30a099] pl-20 sm-1:px-8">
               About Us
             </h2>
           </div>
         </div>
       </div>
       <div className="mx-auto px-6">
-        <div className="bg-white p-8 pl-14 mt-4 rounded-lg">
+        <div className="bg-white p-8 pl-14 sm-1:px-2 sm-1:mt-1 mt-4 rounded-lg">
           <p className="mb-4">
             At <strong>EquilTax professionals</strong>, we are dedicated to
             providing comprehensive financial and accounting services tailored
