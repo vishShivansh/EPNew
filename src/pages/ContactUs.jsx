@@ -8,24 +8,24 @@ export default function ContactUs() {
 
   return (
     <>
-      <div className="bg-[#fbf9eb] py-4 mx-auto mt-[104px]">
+      <div className="bg-[#fbf9eb] py-4 mx-auto">
         <div className="mx-auto">
           <div className="flex w-full">
-            <h2 className="text-3xl font-bold text-[#30a099] pl-[204px]">
+            <h2 className="text-3xl font-bold text-[#30a099] lg:pl-[204px] container mx-auto sm:px-10 sm-1:px-4">
               Contact Us
             </h2>
           </div>
         </div>
       </div>
-      <div className="container mx-auto pl-[204px] pr-[160px] py-8 ">
+      <div className="container mx-auto lg:pl-[204px] sm:px-10 pr-[160px] py-8 sm-1:py-6 sm-1:px-4">
         <p className="mb-4">
           We are here to assist you with all your financial and accounting
           needs. Please feel free to reach out to us through any of the
           following methods:
         </p>
-        <div className="flex flex-row gap-10">
+        <div className="flex flex-row sm-1:flex-col gap-10">
           {/* Details Section */}
-          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 h-[250px]">
+          <div className="bg-white p-6 sm:px-10 rounded-lg shadow-lg border border-gray-200 sm-1:h-[280px] sm:h-[350px] md:h-[300px]">
             <div className="space-y-4">
               <div>
                 <h4 className="text-xl font-bold mb-2 text-blue-900/90 ">

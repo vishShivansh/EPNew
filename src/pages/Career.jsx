@@ -85,10 +85,10 @@ export default function Career() {
 
   return (
     <>
-      <div className="bg-[#fbf9eb] py-4 mx-auto mt-[104px]">
+      <div className="bg-[#fbf9eb] py-4 mx-auto">
         <div className="mx-auto">
           <div className="flex w-full">
-            <h2 className="text-3xl font-bold text-[#30a099] pl-[180px]">
+            <h2 className="text-3xl font-bold text-[#30a099] container mx-auto lg:px-[181px] px-4">
               Career
             </h2>
           </div>
@@ -96,7 +96,7 @@ export default function Career() {
       </div>
       <div className="container mx-auto p-4">
         <div className="bg-white">
-          <div className="mb-6 px-[165px] line-clamp-2">
+          <div className="mb-6 w-full lg:px-[165px] lg:line-clamp-3">
             <p className="text-gray-700">
               We nurture and cultivate a sense of pride in the work and create
               team leaders. Your growth chart will be governed by well-defined
@@ -105,10 +105,10 @@ export default function Career() {
             </p>
           </div>
           <form
-            className="grid md:grid-cols-2 gap-2 px-[200px]"
+            className="grid md:grid-cols-2 gap-2 lg:px-[200px]"
             onSubmit={handleSubmit}
           >
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5">
               <label className="block mb-1">
                 First Name <span className="text-red-500">*</span>
               </label>
@@ -121,7 +121,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">
                 Last Name <span className="text-red-500">*</span>
               </label>
@@ -134,7 +134,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5">
               <label className="block mb-1">
                 Email <span className="text-red-500">*</span>
               </label>
@@ -147,7 +147,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">
                 Mobile No <span className="text-red-500">*</span>
               </label>
@@ -160,7 +160,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5 sm-1:mt-6">
               <label className="block mb-1">
                 Gender <span className="text-red-500">*</span>
               </label>
@@ -174,7 +174,7 @@ export default function Career() {
                 <option value="Female">Female</option>
               </select>
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">
                 Position you are applying for
               </label>
@@ -187,7 +187,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5">
               <label className="block mb-1">
                 Date Of Birth (DD/MM/YYYY){" "}
                 <span className="text-red-500">*</span>
@@ -201,7 +201,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">Highest Qualification</label>
               <input
                 name="qualification"
@@ -212,7 +212,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5 sm-1:mt-6">
               <label className="block mb-1">Portfolio Website</label>
               <input
                 name="portfolio"
@@ -223,7 +223,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">
                 Upload Resume *(Max size 1 MB)
               </label>
@@ -234,7 +234,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-1 rounded-md"
               />
             </div>
-            <div className="col-span-1 pr-5">
+            <div className="col-span-1 sm:pr-5">
               <label className="block mb-1">Last Company You Worked For</label>
               <input
                 name="lastCompany"
@@ -245,7 +245,7 @@ export default function Career() {
                 className="w-full h-10 border border-gray-300 p-3 rounded-md"
               />
             </div>
-            <div className="col-span-1 pl-5">
+            <div className="col-span-1 sm:pl-5">
               <label className="block mb-1">Years Of Experience</label>
               <input
                 name="experience"
