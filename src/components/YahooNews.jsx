@@ -42,7 +42,7 @@ const newsItems = [
 ];
 export default function YahooNews() {
   return (
-    <ul className="mt-8 space-y-2 list-disc list-inside">
+    <ul className="mt-8 space-y-2 list-disc p-2">
       {newsItems.map((item, index) => (
         <li key={index}>
           <span>
@@ -50,7 +50,7 @@ export default function YahooNews() {
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-800 hover:underline"
+              className="text-gray-800 hover:underline sm-1:line-clamp-1"
             >
               {item.text}
             </a>
